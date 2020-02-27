@@ -131,7 +131,7 @@
   // Return the results of applying an iterator to each element.
   _.map = function(collection, iterator) {
     var results = [];
-    _.each(collection, function(item){
+    _.each(collection, function(item) {
       results.push(iterator(item));
     });
 
